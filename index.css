@@ -1,0 +1,62 @@
+.k-editor-file-block {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.k-editor-file-block-wrapper {
+  line-height: 1;
+  background: var(--color-background);
+  border-radius: 4px;
+  color: var(--color-text-light);
+
+}
+
+.k-editor-file-block-inner {
+  padding: .75rem;
+}
+
+.k-editor-file-block-placeholder {
+  display: flex;
+  line-height: 1;
+  justify-content: center;
+  align-items: center;
+  font-style: italic;
+  font-size: .875rem;
+  width: 100%;
+  background: var(--color-background);
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.k-editor-file-block-placeholder:focus {
+  outline: 2px solid var(--color-focus-outline);
+  outline-offset: 2px;
+}
+
+.k-editor-file-block-placeholder .k-button {
+  margin: 0 1.5rem;
+  padding: .75rem;
+}
+
+.k-editor-file-block-file:focus {
+  outline: 2px solid var(--color-focus-outline);
+  outline-offset: 2px;
+}
+
+.k-editor-file-block-filename {
+  font-family: var(--font-family-mono);
+  color: var(--color-text);
+  cursor: default;
+}
+
+.k-editor-file-block-filename * {
+  vertical-align: middle;
+}
+
+.k-editor-file-block-filename .k-icon {
+  display: inline-flex;
+}
+
+.k-editor-file-block-linktext {
+  color: var(--color-text-light);
+}
