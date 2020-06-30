@@ -1,0 +1,15 @@
+Text:
+
+[
+    {
+        "attrs": {
+            "guid": "/pages/home/files/test.pdf",
+            "src": "http://file-block.test/media/pages/home/2752430258-1593528288/test.pdf",
+            "id": "home/test.pdf",
+            "linkText": "Download the file"
+        },
+        "content": "",
+        "id": "_gx1ib7riq",
+        "type": "file"
+    }
+]

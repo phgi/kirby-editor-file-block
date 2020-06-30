@@ -1,2 +1,1 @@
-hello
-asdf
+<?= $page->text()->blocks(); ?>
